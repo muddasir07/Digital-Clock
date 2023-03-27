@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <script src="script.js" defer></script>
+
+   
+</head>
+<body>
+    <div class="clock">
+
+    <div id="hours"></div>
+    <div>:</div>
+    <div id="minutes"></div>
+    <div>:</div>
+    <div id="seconds"></div>
+    
+    <div id="amPm"></div>
+
+    <style>
+
+
+.clock {
+    background-image: url(clock-time-old-roman-thumbnail.jpg);   
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: bold;
+    height: 500px;
+    color: whitesmoke;
+    background-color: #e9c85de1;
+    border-radius: 40px;
+    padding: 20px;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
+}
+
+#hours,
+#minutes,
+#seconds,
+#amPm {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #9b882ad7;
+    margin: 0 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#amPm {
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+#hours:hover,
+#minutes:hover,
+#seconds:hover,
+#amPm:hover {
+    background-color: #93c437f6;
+}
+
+    </style>
+</div>
+
+
+
+</body>
+</html>
